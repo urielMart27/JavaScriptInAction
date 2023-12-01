@@ -1,4 +1,4 @@
-//Variables:
+// Variables:
 
 //Days of the week
 let dayOfWeek = "Monday"
@@ -49,7 +49,7 @@ else {
 
 
 
-//"For" Loops
+// "For" Loops
 
 //Task 1
 for (let i = 0; i < 7; i++){
@@ -67,3 +67,30 @@ for (let i = 0; i < 5; i++){
     console.log("goodbye");
 
 }
+
+
+
+// Functions
+
+//Favorite Movie
+function printMovieName(){
+    let favoriteMovie = "Avengers"
+    console.log(`${favoriteMovie}`)
+}
+ printMovieName()
+
+ //Favorite Band 
+ function getFavoriteBand(){
+    let userInput = prompt("What is your favorite band?")
+    return userInput
+ }
+ let favoriteBand = getFavoriteBand()
+ console.log(`${favoriteBand}`)
+
+ //Concert
+ function concertDisplay(musicalAct){
+    let myStreet = prompt("What street do you live on?")
+    console.log(`It would be great if ${musicalAct} played on ${myStreet}`)
+ }
+
+ concertDisplay(favoriteBand)
