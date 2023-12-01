@@ -1,12 +1,21 @@
+//Variables:
+
+//Days of the week
 let dayOfWeek = "Monday"
 console.log(dayOfWeek)
 dayOfWeek = "Friday"
 console.log(`I cant wait for ${dayOfWeek}`)
 
+//User input
 let animalInput= prompt('What is your favorite animal?')
 let colorInput= prompt('What is your favorite color?')
 console.log(`I've never seen a ${colorInput} ${animalInput}!`)
 
+
+
+// Conditionals:
+
+// Meals
 // Favorite Breakfast: Eggs
 // Favorite Lunch: Sandwich
 // Favorite Dinner:  Pizza
@@ -23,7 +32,7 @@ else {
 }
 console.log(`Current meal is ${currentMeal}`)
 
-
+//Random Number
 let randomNumber = Math.floor(Math.random() * 11)
 if (randomNumber <=2){
     console.log("Beatles")
@@ -36,4 +45,25 @@ else if (randomNumber <=8){
 }
 else {
     console.log("Hendrix")
+}
+
+
+
+//"For" Loops
+
+//Task 1
+for (let i = 0; i < 7; i++){
+    console.log("JavaScript is cool!");
+}
+
+//Task 2
+for (let i = 0; i <= 10; i++){
+    console.log(i);
+}
+
+//Task 3
+for (let i = 0; i < 5; i++){
+    console.log("hello");
+    console.log("goodbye");
+
 }
